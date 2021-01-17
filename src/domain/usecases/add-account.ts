@@ -1,9 +1,9 @@
 import { AccountModel } from '../models/account'
 
 export interface AddAccountModel {
-  name: String
-  email: String
-  password: String
+  name: string
+  email: string
+  password: string
 }
 
 export interface AddAccount {
