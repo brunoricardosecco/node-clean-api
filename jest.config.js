@@ -5,5 +5,6 @@ module.exports = {
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
-  testEnvironment: 'node'
+  testEnvironment: 'node',
+  preset: '@shelf/jest-mongodb'
 }
